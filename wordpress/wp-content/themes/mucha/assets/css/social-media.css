@@ -1,0 +1,68 @@
+/* Soical Icon Css
+
+/*   -- "Inline Social Profiles" (These are the styles for the Social Site section) --   */
+
+.inline-social-icons ul, .block-social-icons ul, .widget ul {
+    margin: 0;
+}
+
+.inline-social-icons li, .widget .inline-social-icons li {
+    display: inline-block;
+    margin: 0 5px 8px;
+    padding: 0;
+}
+#left-search .inline-social-icons li{
+    display: inline-block;
+    margin: 0 2px 0px;
+    padding: 0;
+    font-size: 0;
+}
+.inline-social-icons li a {
+    -o-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    color: #fff;
+    display: inline-block;
+    font-size: 0px;
+    padding: 6px 8px 6px;
+    text-align: center;
+    background: #4A2973;
+    min-width: 32px;
+    height: 32px;
+    text-transform: uppercase;
+    border: 1px solid #4A2973;
+}
+.inline-social-icons li a:hover {
+    background: #FF7506;
+    border: 1px solid #FF7506;
+}
+.inline-social-icons li:last-child, .widget .inline-social-icons li:last-child {
+    margin-right: 0;
+}
+
+.inline-social-icons li:first-child, .widget .inline-social-icons li:first-child {
+    margin-left: 0;
+}
+
+.inline-social-icons.social-links ul li a:hover::before, 
+.inline-social-icons.social-links ul li a::before {
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    color: #fff
+}
+
+.inline-social-icons ul li:last-child a {
+    margin-right: 0;
+}
+#secondary .widget .inline-social-icons li a{
+    font-size: 0;
+    font-weight: 400;
+}
+#secondary .widget .inline-social-icons li{
+    border: none;
+    padding: 0;
+    margin: 0 4px 3px;
+}

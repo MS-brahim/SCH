@@ -1,0 +1,217 @@
+/*  ================================================
+
+        ##. Slideshow CSS
+
+    ================================================ */
+
+.has-bb-slider-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bb-slideshow:hover .slick-arrow-fix{
+    opacity: 1;
+}
+.bb-slideshow .slick-arrow-fix{
+    opacity: 0;
+}
+.bb-slideshow .slick-left{
+    left: 0;
+}
+.bb-slideshow .slick-right{
+    right: 0;
+}
+
+.bb-slideshow:hover .slick-left{
+    left: 50px;
+}
+.bb-slideshow:hover .slick-right{
+    right: 50px;
+}
+.bb-slider-icon {
+    width: 48px;
+    height: 48px;
+    display: block;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 22px;
+    color: #fff;
+    background-color: #fc802a;
+    -webkit-box-shadow: 0 0 16px 0 rgba(252, 128, 42, 0.6);
+    box-shadow: 0 0 16px 0 rgba(252, 128, 42, 0.6);
+}
+
+.bb-slideshow ul.slick-dots li.slick-active button,
+.bb-slider-icon:hover{
+    -webkit-box-shadow: 0 0 16px 0 rgba(35, 35, 35, .6);
+    box-shadow: 0 0 16px 0 rgba(35, 35, 35, .6);
+    background-color: #232323;
+    color: #FFFFFF;
+
+}
+
+.bb-slideshow ul.slick-dots {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.bb-slideshow ul.slick-dots li {
+    display: inline-block;
+    text-align: center;
+    margin: 2px;
+}
+.bb-slideshow .slick-dots button {
+    font-size: 0;
+    padding: 0;
+    outline: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/*  ================================================
+
+        ##. Youtube CSS
+
+    ================================================ */
+.bb-youtube-play span{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*  ================================================
+
+        ##. Big Banner CSS
+
+    ================================================ */
+
+.bb-big-img,
+.bb-big-content{
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%, 200px);
+
+}
+.bb-big-content{
+    left: -75%;
+    transform: translate(0, -350px);
+}
+
+.two-btn .fab{
+    margin-right: 10px;
+}
+
+/*  ================================================
+
+        ##. Team CSS
+
+    ================================================ */
+.our-team {
+    position: relative;
+}
+
+.our-team-item {
+    margin-top: 30px;
+    border: 1px solid transparent;
+    padding: 30px;
+}
+
+.our-team-item:hover {
+    border-color: #f96a0e;
+}
+
+.our-team-profile {
+    text-align: center;
+}
+
+.our-team-profile img {
+    box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.08);
+}
+
+.social-list li > a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    border: 1px solid #d2d2d2;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.social-list li > a:hover {
+    background-color: #f96a0e;
+    border: 1px solid #f96a0e;
+
+}
+.social-list li > a:hover i{
+    color: #ffffff !important;
+}
+.our-team-item i{
+    font-size: 14px;
+}
+.our-team-item h4 {
+    font-size: 20px;
+}
+.our-team-item p {
+    font-size: 16px;
+}
+
+/*  ================================================
+
+        ##. YouTube CSS
+
+    ================================================ */
+
+.youtube-popup{
+    position: fixed;
+    display: none;
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .2);
+}
+.youtube-popup .container{
+    max-width: 900px;
+}
+.youtube-popup.has-active{
+    display: flex;
+}
+.youtube-index{
+    z-index: 999999;
+}
+
+.youtube-close{
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    z-index: 999;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    background: #fff;
+    color: #000;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 25px 0 rgba(60, 60, 60, 0.08);
+    box-shadow: 0 0 25px 0 rgba(60, 60, 60, 0.08);
+}
