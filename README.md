@@ -19,6 +19,7 @@
 
     Step 8 : Open a browser and go to URL http://localhost/himDB/smart/wordpress/index/
 
-#plugin use =>
+#plugins use =>
+
     - Elementor
     - SVG Support
