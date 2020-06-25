@@ -24,7 +24,7 @@
     - Elementor
     - SVG Support
     
-#Theme Astra
+#Theme => Astra
 
 #user =>
 
